@@ -1,0 +1,19 @@
+[project]
+name = "auditor-contrasenas"
+version = "0.1.0"
+description = "Auditor de fortaleza y filtración de contraseñas"
+readme = "README.md"
+authors = [
+    { name = "Rogerio117", email = "emmanuel.canto.romero@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "bcrypt>=5.0.0",
+    "cryptography>=50.0.2",
+    "fastapi>=0.165.0",
+    "itsdangerous>=2.2.0",
+    "jinja2>=3.1.6",
+    "python-multipart>=0.0.34",
+    "slowapi>=0.1.10",
+    "uvicorn[standard]>=0.54.0",
+]
